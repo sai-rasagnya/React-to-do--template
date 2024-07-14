@@ -1,0 +1,36 @@
+body{
+background-color: black;
+display:flex;
+justify-content:center;
+align-items:center;
+height: 100vh;
+}
+.header-class{
+width:220px;
+color:black;
+position: center;
+}
+.todo-container{
+width:600px;
+padding:20px;
+background-color: beige;
+}
+button{
+margin-left:20px;
+background-color:skyblue;
+color:white;
+width: 500px;;
+cursor:pointer;
+border-radius: 20px;
+height: 40px;
+padding:10px 20px;
+font-weight:bold;
+}
+p{
+    justify-content: space-between;
+    background-color: beige;
+    color:black;
+}
+.todo-item input[type="checkbox"] {
+    margin-right: 10px; /* Adjust the space between checkbox and label */
+  }
